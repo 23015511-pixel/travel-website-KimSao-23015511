@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    text-align: center;
+    margin: 10px;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+}
+
+.tour-list {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+.card:hover {
+    background: #f1f1f1;
+}
+
+button, .btn {
+    background: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+button:hover {
+    background: red;
+}
